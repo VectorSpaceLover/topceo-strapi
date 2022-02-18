@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "301 Redirect"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "oldurl": {
+      "type": "string"
+    },
+    "newurl": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "301_redirects"
+}
