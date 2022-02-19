@@ -1,0 +1,67 @@
+{
+  "connection": "default",
+  "collectionName": "activity_attendees",
+  "info": {
+    "name": "Activity Sponsors"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "CompanyName": {
+      "type": "string"
+    },
+    "Industry": {
+      "type": "string"
+    },
+    "ContactpointName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phonenumber": {
+      "type": "biginteger"
+    },
+    "PanelDiscussion": {
+      "type": "boolean"
+    },
+    "VIPdinner": {
+      "type": "boolean"
+    },
+    "VIPlounge": {
+      "type": "boolean"
+    },
+    "Ongroundexperiences": {
+      "type": "boolean"
+    },
+    "Awardceremony": {
+      "type": "boolean"
+    },
+    "Other": {
+      "type": "boolean"
+    },
+    "aboutyourinterests": {
+      "type": "string"
+    },
+    "Complementaryinformationattachments": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "SubscribetoUpdates": {
+      "type": "boolean"
+    },
+    "SubscribetoMediaQuest": {
+      "type": "boolean"
+    }
+  }
+}
