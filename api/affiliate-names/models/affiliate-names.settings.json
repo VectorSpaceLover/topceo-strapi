@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "affiliate_names",
+  "info": {
+    "name": "Affiliate Names"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "AffiliateName": {
+      "type": "string"
+    }
+  }
+}
