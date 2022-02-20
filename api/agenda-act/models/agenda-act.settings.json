@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "agenda_acts",
+  "info": {
+    "name": "Agenda Activities"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "agenda_posts": {
+      "via": "agenda_acts",
+      "collection": "highlights-post",
+      "dominant": true
+    }
+  }
+}
