@@ -1,0 +1,12 @@
+{
+  "connection": "default",
+  "collectionName": "agenda_activities",
+  "info": {
+    "name": "Agenda "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {}
+}
