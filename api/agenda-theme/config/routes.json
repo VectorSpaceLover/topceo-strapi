@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/agenda-themes",
+      "handler": "agenda-theme.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agenda-themes/count",
+      "handler": "agenda-theme.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agenda-themes/:id",
+      "handler": "agenda-theme.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/agenda-themes",
+      "handler": "agenda-theme.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/agenda-themes/:id",
+      "handler": "agenda-theme.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/agenda-themes/:id",
+      "handler": "agenda-theme.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
