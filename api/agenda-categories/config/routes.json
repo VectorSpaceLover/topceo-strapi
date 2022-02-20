@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/agenda-categories",
+      "handler": "agenda-categories.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agenda-categories/count",
+      "handler": "agenda-categories.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agenda-categories/:id",
+      "handler": "agenda-categories.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/agenda-categories",
+      "handler": "agenda-categories.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/agenda-categories/:id",
+      "handler": "agenda-categories.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/agenda-categories/:id",
+      "handler": "agenda-categories.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
