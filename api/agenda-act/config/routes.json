@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/agenda-acts",
+      "handler": "agenda-act.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agenda-acts/count",
+      "handler": "agenda-act.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agenda-acts/:id",
+      "handler": "agenda-act.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/agenda-acts",
+      "handler": "agenda-act.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/agenda-acts/:id",
+      "handler": "agenda-act.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/agenda-acts/:id",
+      "handler": "agenda-act.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
