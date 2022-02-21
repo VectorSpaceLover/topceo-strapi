@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "agenda_themes",
+  "info": {
+    "name": "Agenda Theme"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "agenda_posts": {
+      "via": "agenda_themes",
+      "collection": "highlights-post",
+      "dominant": true
+    }
+  }
+}
