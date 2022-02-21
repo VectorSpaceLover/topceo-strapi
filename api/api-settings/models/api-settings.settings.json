@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "api_settings",
+  "info": {
+    "name": "API Settings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "APIKey": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "APIURL": {
+      "type": "string"
+    },
+    "ThemeSponsorListID": {
+      "type": "string"
+    },
+    "SpeakerFormListID": {
+      "type": "string"
+    },
+    "ActivitySponsorListID": {
+      "type": "string"
+    },
+    "AttendeeFormListID": {
+      "type": "string"
+    },
+    "PartnerFormListID": {
+      "type": "string"
+    },
+    "APIPassword": {
+      "type": "string"
+    },
+    "ContactFormListID": {
+      "type": "string"
+    }
+  }
+}
