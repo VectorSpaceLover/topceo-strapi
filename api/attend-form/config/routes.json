@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/attend-forms",
+      "handler": "attend-form.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attend-forms/count",
+      "handler": "attend-form.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attend-forms/:id",
+      "handler": "attend-form.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/attend-forms",
+      "handler": "attend-form.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/attend-forms/:id",
+      "handler": "attend-form.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/attend-forms/:id",
+      "handler": "attend-form.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
