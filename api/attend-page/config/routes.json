@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/attend-pages",
+      "handler": "attend-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attend-pages/count",
+      "handler": "attend-page.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attend-pages/:id",
+      "handler": "attend-page.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/attend-pages",
+      "handler": "attend-page.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/attend-pages/:id",
+      "handler": "attend-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/attend-pages/:id",
+      "handler": "attend-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
