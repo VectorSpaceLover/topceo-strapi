@@ -1,0 +1,55 @@
+{
+  "info": {
+    "name": "Attend Form"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "CEOListedcompany": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Lastname": {
+      "type": "string"
+    },
+    "Countryoforigin": {
+      "type": "string"
+    },
+    "CompanyName": {
+      "type": "string"
+    },
+    "CompanyIndustry": {
+      "type": "string"
+    },
+    "compannominatedfortheAwardceremony": {
+      "type": "boolean"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Phonenumber": {
+      "type": "biginteger"
+    },
+    "LinkedinprofileorlinktoCV": {
+      "type": "string"
+    },
+    "Youareinterestedin": {
+      "type": "string"
+    },
+    "Whatthemesareyoumostinterestedin": {
+      "type": "string"
+    },
+    "HaveyoupreviouslyattendedTopCEO": {
+      "type": "boolean"
+    },
+    "Howdidyouhearaboutus": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "attend_forms"
+}
