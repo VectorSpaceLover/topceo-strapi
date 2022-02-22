@@ -1,0 +1,43 @@
+{
+  "info": {
+    "name": "Attend Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    },
+    "SelectSection": {
+      "type": "enumeration",
+      "enum": [
+        "Section1",
+        "Section2",
+        "Section3",
+        "Section4"
+      ]
+    }
+  },
+  "connection": "default",
+  "collectionName": "attend_pages"
+}
