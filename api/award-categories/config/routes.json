@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/award-categories",
+      "handler": "award-categories.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/award-categories/count",
+      "handler": "award-categories.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/award-categories/:id",
+      "handler": "award-categories.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/award-categories",
+      "handler": "award-categories.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/award-categories/:id",
+      "handler": "award-categories.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/award-categories/:id",
+      "handler": "award-categories.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
