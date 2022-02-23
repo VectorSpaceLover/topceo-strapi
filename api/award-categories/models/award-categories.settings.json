@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "award_categories",
+  "info": {
+    "name": "Award Categories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "awards_posts": {
+      "via": "award_categories",
+      "collection": "awards-post",
+      "dominant": true
+    }
+  }
+}
