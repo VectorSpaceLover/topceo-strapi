@@ -1,0 +1,91 @@
+{
+  "connection": "default",
+  "collectionName": "attend_selection_sections",
+  "info": {
+    "name": "Attend Selection Section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "InfoText1": {
+      "type": "string"
+    },
+    "InfoText2": {
+      "type": "string"
+    },
+    "InfoText3": {
+      "type": "string"
+    },
+    "InfoText4": {
+      "type": "string"
+    },
+    "InfoText5": {
+      "type": "string"
+    },
+    "InfoText6": {
+      "type": "string"
+    },
+    "Info1Select": {
+      "type": "enumeration",
+      "enum": [
+        "True",
+        "False"
+      ],
+      "default": "True"
+    },
+    "Info2Select": {
+      "type": "enumeration",
+      "enum": [
+        "True",
+        "False"
+      ],
+      "default": "True"
+    },
+    "Info3select": {
+      "type": "enumeration",
+      "enum": [
+        "True",
+        "False"
+      ],
+      "default": "True"
+    },
+    "Info4select": {
+      "type": "enumeration",
+      "enum": [
+        "True",
+        "False"
+      ],
+      "default": "True"
+    },
+    "Info5select": {
+      "type": "enumeration",
+      "enum": [
+        "True",
+        "False"
+      ],
+      "default": "True"
+    },
+    "Info6select": {
+      "type": "enumeration",
+      "enum": [
+        "True",
+        "False"
+      ],
+      "default": "True"
+    }
+  }
+}
