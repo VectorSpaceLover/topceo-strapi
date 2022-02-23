@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/attend-selection-sections",
+      "handler": "attend-selection-section.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attend-selection-sections/count",
+      "handler": "attend-selection-section.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attend-selection-sections/:id",
+      "handler": "attend-selection-section.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/attend-selection-sections",
+      "handler": "attend-selection-section.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/attend-selection-sections/:id",
+      "handler": "attend-selection-section.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/attend-selection-sections/:id",
+      "handler": "attend-selection-section.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
