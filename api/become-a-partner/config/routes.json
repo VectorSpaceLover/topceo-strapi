@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/become-a-partners",
+      "handler": "become-a-partner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/become-a-partners/count",
+      "handler": "become-a-partner.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/become-a-partners/:id",
+      "handler": "become-a-partner.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/become-a-partners",
+      "handler": "become-a-partner.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/become-a-partners/:id",
+      "handler": "become-a-partner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/become-a-partners/:id",
+      "handler": "become-a-partner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
