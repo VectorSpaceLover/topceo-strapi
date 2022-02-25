@@ -1,0 +1,51 @@
+{
+  "connection": "default",
+  "collectionName": "awards_posts",
+  "info": {
+    "name": "Awards Post"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "award_categories": {
+      "collection": "award-categories",
+      "via": "awards_posts"
+    },
+    "FackbookLink": {
+      "type": "string"
+    },
+    "TwitterLink": {
+      "type": "string"
+    },
+    "LinkedinLink": {
+      "type": "string"
+    },
+    "WebsiteLink": {
+      "type": "string",
+      "required": true
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
