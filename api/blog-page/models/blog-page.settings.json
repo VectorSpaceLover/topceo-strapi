@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "blog_pages",
+  "info": {
+    "name": "Blog Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Buttontext": {
+      "type": "string"
+    },
+    "Buttonlink": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "PostTitle": {
+      "type": "string"
+    },
+    "PostSubTitle": {
+      "type": "string"
+    }
+  }
+}
