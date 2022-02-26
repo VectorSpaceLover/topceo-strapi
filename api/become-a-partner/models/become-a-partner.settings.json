@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "become_a_partners",
+  "info": {
+    "name": "Become a Partner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "CompanyName": {
+      "type": "string"
+    },
+    "Industry": {
+      "type": "string"
+    },
+    "ContactpointName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phonenumber": {
+      "type": "biginteger"
+    },
+    "aboutyourinterests": {
+      "type": "string"
+    },
+    "Complementaryinformationattachments": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "SubscribetoUpdates": {
+      "type": "boolean"
+    },
+    "SubscribetoMediaQuest": {
+      "type": "boolean"
+    }
+  }
+}
