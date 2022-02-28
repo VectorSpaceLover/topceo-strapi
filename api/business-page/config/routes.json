@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/business-pages",
+      "handler": "business-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/business-pages/count",
+      "handler": "business-page.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/business-pages/:id",
+      "handler": "business-page.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/business-pages",
+      "handler": "business-page.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/business-pages/:id",
+      "handler": "business-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/business-pages/:id",
+      "handler": "business-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
