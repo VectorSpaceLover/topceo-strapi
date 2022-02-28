@@ -1,0 +1,56 @@
+{
+  "connection": "default",
+  "collectionName": "business_posts",
+  "info": {
+    "name": "Business Post"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "SmallLogoImage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Selectoptions": {
+      "type": "enumeration",
+      "enum": [
+        "Hostcountrysponsor",
+        "Themesponsors",
+        "Activitysponsors",
+        "Knowledgepartners",
+        "Mediapartners",
+        "Ecosystempartners",
+        "Sportspartners"
+      ]
+    },
+    "BigLogoImage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    },
+    "partner_titles": {
+      "collection": "partner-title",
+      "via": "business_posts"
+    }
+  }
+}
