@@ -1,0 +1,48 @@
+{
+  "connection": "default",
+  "collectionName": "business_pages",
+  "info": {
+    "name": "Business Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "TItle": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "SelectSection": {
+      "type": "enumeration",
+      "enum": [
+        "Section1",
+        "Section2",
+        "Section3",
+        "Section4",
+        "Section5",
+        "Section6",
+        "Section7",
+        "Section8",
+        "Section9"
+      ]
+    }
+  }
+}
