@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "Book a Ticket Section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "book_a_ticket_sections"
+}
