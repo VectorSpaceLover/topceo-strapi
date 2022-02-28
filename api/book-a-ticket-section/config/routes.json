@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/book-a-ticket-sections",
+      "handler": "book-a-ticket-section.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/book-a-ticket-sections/count",
+      "handler": "book-a-ticket-section.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/book-a-ticket-sections/:id",
+      "handler": "book-a-ticket-section.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/book-a-ticket-sections",
+      "handler": "book-a-ticket-section.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/book-a-ticket-sections/:id",
+      "handler": "book-a-ticket-section.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/book-a-ticket-sections/:id",
+      "handler": "book-a-ticket-section.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
