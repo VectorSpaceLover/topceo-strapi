@@ -1,0 +1,53 @@
+{
+  "connection": "default",
+  "collectionName": "contact_forms",
+  "info": {
+    "name": "Contact Form"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "SubjectofInquiry": {
+      "type": "string"
+    },
+    "EmailAddress": {
+      "type": "email",
+      "required": true
+    },
+    "FirstName": {
+      "type": "string",
+      "required": true
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Company": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Industry": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "MobileNumber": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Writeyourmessage": {
+      "type": "text",
+      "required": true
+    },
+    "SubscribeTo": {
+      "type": "boolean"
+    },
+    "SubscribetoMediaQuest": {
+      "type": "boolean"
+    }
+  }
+}
