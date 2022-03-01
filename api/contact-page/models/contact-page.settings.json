@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "contact_pages",
+  "info": {
+    "name": "Contact Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "SelectSection": {
+      "type": "enumeration",
+      "enum": [
+        "Section1",
+        "Section2",
+        "Section3"
+      ]
+    }
+  }
+}
