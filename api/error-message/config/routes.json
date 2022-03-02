@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/error-messages",
+      "handler": "error-message.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/error-messages/count",
+      "handler": "error-message.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/error-messages/:id",
+      "handler": "error-message.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/error-messages",
+      "handler": "error-message.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/error-messages/:id",
+      "handler": "error-message.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/error-messages/:id",
+      "handler": "error-message.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
