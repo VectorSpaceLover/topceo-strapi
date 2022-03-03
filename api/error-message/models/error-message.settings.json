@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "Error Message"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Contant": {
+      "type": "richtext"
+    },
+    "ButtonLink": {
+      "type": "string"
+    },
+    "ButtonText": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "error_messages"
+}
