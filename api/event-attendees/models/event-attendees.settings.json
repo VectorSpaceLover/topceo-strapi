@@ -1,0 +1,105 @@
+{
+  "connection": "default",
+  "collectionName": "event_attendees",
+  "info": {
+    "name": "Event Attendees"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "First_Name": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Company": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Industry": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "MobileNumber": {
+      "type": "biginteger"
+    },
+    "InviteCode": {
+      "type": "string"
+    },
+    "InviteCodeType": {
+      "type": "enumeration",
+      "enum": [
+        "VerifiedGuest",
+        "FreeTicket",
+        "Discount400",
+        "Discount700"
+      ],
+      "default": "FreeTicket"
+    },
+    "SubscribetoMediaQuest": {
+      "type": "boolean",
+      "default": false
+    },
+    "SubscribetoUpdates": {
+      "type": "boolean",
+      "default": false
+    },
+    "ticket_type": {
+      "model": "attend-selection-section"
+    },
+    "Invite_Code_Used": {
+      "type": "boolean",
+      "default": false
+    },
+    "CEOListedcompany": {
+      "type": "string"
+    },
+    "LinkedinprofileorlinktoCV": {
+      "type": "string"
+    },
+    "Youareinterestedin": {
+      "type": "string"
+    },
+    "Whatthemesareyoumostinterestedin": {
+      "type": "string"
+    },
+    "Howdidyouhearaboutus": {
+      "type": "string"
+    },
+    "WhatYear": {
+      "type": "string"
+    },
+    "themes_posts": {
+      "collection": "themes-post",
+      "via": "event_attendee"
+    },
+    "OtherPosition": {
+      "type": "string"
+    },
+    "CompannominatedfortheAwardceremony": {
+      "type": "string"
+    },
+    "HaveyoupreviouslyattendedTopCEO": {
+      "type": "string"
+    },
+    "hearaboutusOther": {
+      "type": "string"
+    },
+    "Affiliate": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "text"
+    }
+  }
+}
